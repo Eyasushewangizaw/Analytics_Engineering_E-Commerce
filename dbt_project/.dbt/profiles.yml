@@ -1,0 +1,12 @@
+dbt_ecomm:
+  outputs:
+    dev:
+      dbname: e-commerce-dbt
+      host: postgres
+      pass: Mikias@2007
+      port: 5432
+      schema: dev_schema
+      threads: 4
+      type: postgres
+      user: eyasu
+  target: dev
